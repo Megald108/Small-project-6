@@ -1,2 +1,22 @@
 # Small-project-6
-Volume cylindre 
+algorithme volume cylindre 
+
+variable
+  
+  var rayon : reel
+  var hauteur : reel
+  var volume : reel
+  
+debut
+  
+  afficher ("Rayon du cercle de base en cm");
+  lire (rayon);
+  
+  afficher ("Son hauteur en cm");
+  lire hauteur 
+  
+  volume <- 2 * 3.14 * rayon * rayon * hauteur 
+  
+  afficher ("le volume de votre cylindre est de ",volume," cm carré");
+  
+fin
